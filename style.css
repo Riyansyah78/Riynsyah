@@ -3,6 +3,28 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: orange;
+    margin: 0 0 16px 0;
+    font-size: 24px;
+}
+
+section {
+    padding: 64px 128px;
+}
+
+img,
+iframe {
+    width: 100%;
+}
+
 a
 {
     text-decoration: none;
@@ -157,6 +179,10 @@ img, iframe {
    display: flex;
    align-items: center;
    justify-content: space-between; 
+}
+
+.service-header h1 {
+    position: relative;
 }
 
 .service-header h1::before {
